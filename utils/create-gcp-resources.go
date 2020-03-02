@@ -289,7 +289,7 @@ func createCluster() error {
 	metapoolArgs := map[string]string{
 		"region":                      region,
 		"node-locations":              zone,
-		"cluster-version":             "1.14.7-gke.23",
+		"cluster-version":             "1.14.10-gke.17",
 		"addons=NetworkPolicy":        "",
 		"no-enable-basic-auth":        "",
 		"no-issue-client-certificate": "",
