@@ -1,7 +1,7 @@
 gitpod:
   # This field must be set to your domain name. Leaving it set to its default value will result in
   # a non-functional installation.
-  hostname: your-domain.com
+  hostname: idelms.pratian.com
 
   # If you have a static IP that your domain resolves to, set it here.
   # Leaving this field set to its default value is fine. Kubernetes will assign you an IP address
@@ -18,19 +18,10 @@ gitpod:
     protocol: "https"
     type: "GitHub"
     oauth:
-      clientId: "your-client-ID-here"
-      clientSecret: "your-client-secret-here"
-      callBackUrl: "https://your-domain.com/auth/github/callback"
-      settingsUrl: "https://github.com/settings/connections/applications/your-client-ID-here"
-  - id: "Example Gitlab"
-    host: "gitlab.com"
-    protocol: "https"
-    type: "GitLab"
-    oauth:
-      clientId: "your-application-ID-here"
-      clientSecret: "your-secret-here"
-      callBackUrl: "https://your-domain.com/auth/github/callback"
-      settingsUrl: "gitlab.com/profile/applications"
+      clientId: "b532a84c0c95c2e7bc2f"
+      clientSecret: "12c0115488712e92d99041cd239a93c13925c817"
+      callBackUrl: "https://idelms.pratian.com/auth/github/callback"
+      settingsUrl: "https://github.com/settings/connections/applications/b532a84c0c95c2e7bc2f"
 
   # RBAC is enabled by default. If your cluster does not use RBAC, set this flag to false so that
   # we do not attempt to install PodSecurityPolicies and the likes.
